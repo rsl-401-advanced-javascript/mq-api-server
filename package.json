@@ -1,0 +1,26 @@
+{
+  "name": "lab-19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose --detectOpenHandles",
+    "start": "node .",
+    "watch": "nodemon .",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@nmq/q": "^1.0.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
